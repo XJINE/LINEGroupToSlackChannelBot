@@ -47,7 +47,7 @@ function doPost(e)
             replyToLineGroup(replyToken,
                              "Update Spreadsheet to link Slack channel.\n"
                              + "[LINE_GROUP_ID: " + event.source.groupId + "]\n"
-                             + "[SPREADSHEET: " + SPREADSHEET_ID + "]");
+                             + "[SPREADSHEET: " + SPREADSHEET_URL + "]");
         }
         else
         {
